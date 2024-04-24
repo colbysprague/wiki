@@ -1,38 +1,28 @@
-# create-svelte
+# Wiki
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Full Stack Web Application 
+![Screenshot 2024-04-24 at 3 29 30 PM](https://github.com/colbysprague/wiki/assets/116236720/1188bcb3-38de-401c-b04d-d7be95cb38dc)
 
-## Creating a project
+## Tech Stack
 
-If you're seeing this, you've probably already done this step. Congrats!
+- SvelteKit
+- Tailwind CSS
+- Pocketbase
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Features
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### Search 
+![Screenshot 2024-04-24 at 3 31 06 PM](https://github.com/colbysprague/wiki/assets/116236720/e7c1e929-b4c6-4a6b-bd7f-68b01d1352ca)
+- Search for pages in the wiki by title or content
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Add / Edit Pages 
+![Screenshot 2024-04-24 at 3 30 34 PM](https://github.com/colbysprague/wiki/assets/116236720/f5a5fe6d-3c83-497b-a690-7d628b1380bd)
+- Create and Edit pages using Markdown. Viewing pages renders the Markdown in HTML with tailwind classes using regular expressions. 
 
-```bash
-npm run dev
+### Delete Pages
+![Screenshot 2024-04-24 at 3 41 25 PM](https://github.com/colbysprague/wiki/assets/116236720/9db830da-f144-41ee-91e0-cadc74443c10)
+- Delete page after user confirms deletion dialog. 
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+### Random Page
+- If no page is selected, button will bring user to a random page on the wiki. 
